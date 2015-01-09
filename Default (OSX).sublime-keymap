@@ -1,0 +1,60 @@
+[
+
+    {
+        "keys": ["super+alt+down"],
+        "command": "goto_definition"
+    },
+    // Highlight Bracket
+    {
+        "keys": ["ctrl+alt+super+up"],
+        "command": "bh_key",
+        "args": {
+            "no_outside_adj": true,
+            "lines": true,
+            "plugin": {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {
+                    "select": "left"
+                }
+            }
+        }
+    },
+    // Go to right bracket
+    {
+        "keys": ["ctrl+alt+super+down"],
+        "command": "bh_key",
+        "args": {
+            "no_outside_adj": true,
+            "lines": true,
+            "plugin": {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {
+                    "select": "right"
+                }
+            }
+        }
+    },
+
+    {
+        "keys": ["super+shift+="],
+        "command": "align_tab",
+        "args": {
+            "user_input": "=/lcl"
+        }
+    }, {
+        "keys": ["super+shift+;"],
+        "command": "align_tab",
+        "args": {
+            "user_input": ":/lcl"
+        }
+    }, {
+        "keys": ["super+shift+\\"],
+        "command": "align_tab",
+        "args": {
+            "user_input": "\\|/lcl"
+        }
+    }
+
+]

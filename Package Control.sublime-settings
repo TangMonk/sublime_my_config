@@ -1,0 +1,51 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
+	"installed_packages":
+	[
+		"AlignTab",
+		"auto-save",
+		"AutoFileName",
+		"BeautifyRuby",
+		"Better CoffeeScript",
+		"BracketHighlighter",
+		"Colorsublime",
+		"Compass",
+		"DocBlockr",
+		"Drupal",
+		"EditorConfig",
+		"Emmet",
+		"ERB Snippets",
+		"FileList",
+		"Gitignore",
+		"Handlebars",
+		"HTMLBeautify",
+		"Jade",
+		"Jade Snippets",
+		"JavaScript & NodeJS Snippets",
+		"JsFormat",
+		"MarkdownEditing",
+		"MarkdownTOC",
+		"Mocha Snippets",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"PackageResourceViewer",
+		"Sass",
+		"Schemr",
+		"SideBarEnhancements",
+		"SnippetManager",
+		"Solarized Color Scheme",
+		"Sublime Bookmarks",
+		"Sublime Text 3 Snippets",
+		"SublimeEnhancedUtilitiesSet",
+		"SublimeLinter-phplint",
+		"TodoReview",
+		"Twig"
+	]
+}

@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+request(${1})
+    .post(${2})
+    ${3:.set('x-access-token', user_token)}
+    .send(${4})
+    .expect(${5})
+    .end(function(err, res) {
+      ${6}
+    })
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>reqpost</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+$app->get('${1:route}', function (${2}) {
+    ${3}
+});
+]]></content>
+	<tabTrigger>appget</tabTrigger>
+	<scope>text.php</scope>
+	<description></description>
+</snippet>
